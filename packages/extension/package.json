@@ -1,0 +1,30 @@
+{
+  "name": "@pi-baker/extension",
+  "version": "0.1.0",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "signal",
+    "orchestration"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "exports": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-ai": "0.80.2",
+    "@earendil-works/pi-coding-agent": "0.80.2"
+  }
+}

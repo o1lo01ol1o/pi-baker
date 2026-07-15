@@ -1,0 +1,10 @@
+.devenv/
+.devenv.flake.nix
+devenv.lock
+node_modules/
+.tsbuildinfo/
+tmp/
+result
+.pi/
+.claude/settings.local.json
+.DS_Store
